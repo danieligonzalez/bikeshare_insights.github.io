@@ -71,15 +71,18 @@ I began querying the Data tables to find data for each of the questions.  All of
 
 The members most used the classic, while the casual riders preferred the electric.
 
+
 2. Average Ride Time.  The members rode their bikes for an average of 12 minutes and 27 seconds, while the casual riders rode for an average of 28 minutes and 24 seconds.
 
 Casual riders would use their bikes for longer amount of time than members.  Potentially to get more use from their purchase.
+
 
 3. Average Distance Per Ride.  I queried the data tables in SQL to find the average amount of meters per ride and then converted the meters to miles in Excel.
 
 The members rode their bikes an average distance of 1.27 Miles, while the casual riders rode the average distance of 1.32 Miles.
 
 Although there is not a significant difference in these distances what they do suggest is that according to the average ride time, the members ride at a much faster pace than the casual riders.
+
 
 4. Bike Station Traffic.  The Data Tables contained information for where each ride started and where each one ended.
 
@@ -91,6 +94,7 @@ The top 5 stations for members were located in business areas of the city.  Lots
 
 The top 5 stations for casual rider were located in leisurely park areas and near the lake.  The most popular station is located in Addams Memorial Park next to the Ohio Street Beach.  That station had 119,076 rides start and end there, while the second most popular station had 62,536 rides start and end at it's location.
 
+
 5. Day of The Week Usage.  What days of the week is there a higher usage for annual members and what days of the week for casual riders.
 
 I queried that data to extract the day of the week from the start timestamp and count the number of trips take on that day.
@@ -100,6 +104,7 @@ The top 3 days of the week for annual members were Tuesday, Wednesday, & Thursda
 The top 3 days of the week for casual riders were Friday, Saturday, & Sunday.  Friday's throughout the past 12 month had 28,374 rides, Saturday's had 39,715, and Sunday's had 32,677.  The day with the lowest amount of rides was Tuesday at 22,000.
 
 Chart on Tableau Dashboard.
+
 
 6. Time of The Day Usage.  What times of the day do annual members ride more and what times do casual riders ride.
 
