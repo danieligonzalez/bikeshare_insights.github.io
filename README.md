@@ -1,4 +1,4 @@
-# danieligonzalez.github.io
+# bikeshareinsights.github.io
 
 Google Data Analytics Professional Certificate Capstone Project
 
