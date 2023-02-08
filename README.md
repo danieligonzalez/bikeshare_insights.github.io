@@ -1,4 +1,4 @@
-# bikeshareinsights.github.io
+# Bikeshare_Insights.github.io
 
 Google Data Analytics Professional Certificate Capstone Project
 
