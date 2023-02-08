@@ -1,0 +1,64 @@
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2021_12_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_01_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_02_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_03_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_04_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_05_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_05_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_06_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_07_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_08_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_09_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_10_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
+UNION DISTINCT
+SELECT DISTINCT rideable_type, member_casual, COUNT(rideable_type) AS times_used
+FROM `sql-practice-365202.cyclistic_bikeshare.2022_11_divvy_tripdata`
+WHERE rideable_type = 'electric_bike' AND member_casual = 'member'
+GROUP BY rideable_type, member_casual
