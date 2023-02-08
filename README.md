@@ -8,6 +8,8 @@ The company has bikeshare stations all over the city.
 They have two kinds of customers, annual members who pay a subscription fee, and casual riders who pay per ride.
 They have found that Annual Members are much more profitable than Casual Riders, so they would like to find the key differences between the two so that the marketing team can effectively reach the Casual Riders.
 
+## Process
+
 I started by downloading the past 12 Months of bikeshare data.
 https://divvy-tripdata.s3.amazonaws.com/index.html
 
