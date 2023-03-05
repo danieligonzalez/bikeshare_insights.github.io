@@ -47,19 +47,19 @@ I familiarized myself with the Data tables and the schema.  The 12 months of dat
 I looked for inconsistencies in the data such as spelling errors or differences in the data inputs.
 
 Here is the schema for the data tables:
-    ride_id
-    rideable_type
-    started_at
-    ended_at
-    start_station_name
-    start_station_id
-    end_station_name
-    end_station_id
-    start_lat
-    start_lng
-    end_lat
-    end_lng
-    member_casual
+    ride_id,
+    rideable_type,
+    started_at,
+    ended_at,
+    start_station_name,
+    start_station_id,
+    end_station_name,
+    end_station_id,
+    start_lat,
+    start_lng,
+    end_lat,
+    end_lng,
+    member_casual,
 
 
 
